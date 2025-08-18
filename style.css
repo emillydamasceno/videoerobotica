@@ -5,3 +5,19 @@ body {
   font-family: "Chakra Petch", sans-serif;       /*define ou  altera a fonte do texto*/
   margin-bottom: 1000px;                         /*ajustar a margem inferior da página, deslocando para baixo*/
 }
+.chamada { /* Estilo da seção principal chamada */
+  background: rgb(184, 156, 213); /* cor de fundo como um tom de roxo claro */
+  padding-bottom: 80px; /* Espaço embaixo do conteúdo */
+  padding-top: 80px; /* Espaço em cima do conteúdo */
+  display: flex; /* Organiza os itens dentro em linha */
+  justify-content: center; /* Centraliza os itens na horizontal */
+}
+.chamada-texte { /* Estilo da caixa de texto dentro da chamada */
+  margin-right: 5%;  /* Espaço do lado direito */
+}
+h1 { /* Estilo dos títulos principais */
+  font-size: 40px; /* Tamanho grande para o título */
+}
+p { /* Estilo dos parágrafos (texto normal) */
+  font-size: 20px; /* Tamanho médio para o texto */
+}
