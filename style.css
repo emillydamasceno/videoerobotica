@@ -3,7 +3,13 @@ body {
   background-color: black;                     /*define a cor do fundo*/
   margin: 0px;                                 /*define a margem dos itens para todos os lados*/ /*zera o espaço proxímo a margem da página*/
   font-family: "Chakra Petch", sans-serif;       /*define ou  altera a fonte do texto*/
-  margin-bottom: 1000px;                         /*ajustar a margem inferior da página, deslocando para baixo*/
+  margin-bottom: 1000px; /*ajustar a margem inferior da página, deslocando para baixo*/
+}
+header {
+  border-bottom:solid 2px rgb(42, 122, 228);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(42, 122, 228);
 }
 .chamada { /* Estilo da seção principal chamada */
   background: rgb(184, 156, 213); /* cor de fundo como um tom de roxo claro */
@@ -20,4 +26,21 @@ h1 { /* Estilo dos títulos principais */
 }
 p { /* Estilo dos parágrafos (texto normal) */
   font-size: 20px; /* Tamanho médio para o texto */
+}
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+.categoria-video img {
+  opacity: 0.5;
+  border: 3px solid green;
+}
+.categoria h2 {
+  color: rgb(42, 122, 228);
 }
